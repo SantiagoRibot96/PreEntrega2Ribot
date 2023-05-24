@@ -27,3 +27,67 @@ main{
     width: 2rem;
     margin-left: .5rem;
 }
+
+.MailFooter input{
+    width: 20rem;
+}
+
+.PieDePagina{
+    white-space: nowrap;
+}
+
+.to_top{
+    width: 3rem;
+    position: fixed;
+    bottom: 8rem;
+    right: 2rem;
+    opacity: .5;
+}
+.to_top:hover{
+    opacity: 1;
+}
+
+.MainIndex{
+    background-color: rgba(250, 240, 223, 0.384);
+    padding-top: 6rem;
+}
+
+.card{
+    background-color: rgb(252, 234, 203);
+}
+
+.card img{
+    width: 15rem;
+    height: 17rem;
+}
+
+.card .ProductosIndex__Imagen{
+    width: 35rem;
+    height: auto;
+}
+
+.ProductosIndex{
+    padding-top: 5rem;
+}
+
+.ProductosIndex .card{
+    background-color: rgba(250, 240, 223, 0.384);
+    border: none;
+}
+
+.ProductosIndex__Card a{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bolder;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    background-color: rgb(252, 234, 203);
+}
+
+@media (max-width: 768px) {
+
+    .card .ProductosIndex__Imagen{
+        width: 20rem;
+        height: auto;
+    }
+
+}

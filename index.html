@@ -51,21 +51,64 @@
 
         </header>
 
-        <main id="main_index">
-            <a href="index.html"><img class="to_top" src="./imagenes/to_top.jpg" alt="Al inicio"></a><!--Imagen flotante de flecha-->
-            <section id="productos_index">
-                <ul>
-                    <li><img src="./imagenes/barba.png" alt="La Barba"><p>La barba es nuestra parrilla estrella, tiene tapa, fogon y mesada. Sus materiales de construccion robustos la hacen una excelente eleccion precio-calidad</p></li>
-                    <li><img src="./imagenes/flama.png" alt="La Flama"><p>La flama es nuestra opcion a gas, tiene tapa de acero y puertas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, repellendus. Ea in soluta nihil nemo!</p></li>
-                    <li><img src="./imagenes/qbo.png" alt="La QBO"><p>La QBO es nuestra parrilla mas moderna, tiene tapa y puertas inferiores, fogon y mesada. Sus materiales de construccion robustos la hacen una excelente eleccion para los amantes de la calidad premium</p></li>
-                    <li><img src="./imagenes/portatil.png" alt="La Portatil"><p>La portatil es nuestra parrilla mas sencilla, lo que no significa que su calidad sea inferior. Sus materiales de construccion robustos la hacen la mejor opcion para los expertos en asado</p></li>
-                </ul>
+        <main class="MainIndex">
+
+            <!--Imagen flotante de flecha-->
+            <a href="#top"><img class="to_top" src="./imagenes/to_top.jpg" alt="Al inicio"></a>
+
+            <!--Seccion de productos-->
+            <section class="container-fluid">
+                <div class="row gy-4">
+
+                  <div class="card col-md-6 col-lg-3">
+                    <img src="./imagenes/barba.png" class="card-img-top mx-auto d-block" alt="La Barba">
+                    <div class="card-body">
+                      <h5 class="card-title">La Barba</h5>
+                      <p class="card-text">La barba es nuestra parrilla estrella, tiene tapa, fogon y mesada. Sus materiales de construccion robustos la hacen una excelente eleccion precio-calidad</p>
+                    </div>
+                  </div>
+
+                  <div class="card col-md-6 col-lg-3">
+                    <img src="./imagenes/flama.png" class="card-img-top mx-auto d-block" alt="La Flama">
+                    <div class="card-body">
+                      <h5 class="card-title">La Flama</h5>
+                      <p class="card-text">La flama es nuestra opcion a gas, tiene tapa de acero y puertas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, repellendus. Ea in soluta nihil nemo!</p>
+                    </div>
+                  </div>
+
+                  <div class="card col-md-6 col-lg-3">
+                    <img src="./imagenes/qbo.png" class="card-img-top mx-auto d-block" alt="La QBO">
+                    <div class="card-body">
+                      <h5 class="card-title">La QBO</h5>
+                      <p class="card-text">La QBO es nuestra parrilla mas moderna, tiene tapa y puertas inferiores, fogon y mesada. Sus materiales de construccion robustos la hacen una excelente eleccion para los amantes de la calidad premium</p>
+                    </div>
+                  </div>
+
+                  <div class="card col-md-6 col-lg-3">
+                    <img src="./imagenes/portatil.png" class="card-img-top mx-auto d-block" alt="La Portatil">
+                    <div class="card-body">
+                      <h5 class="card-title">La Portatil</h5>
+                      <p class="card-text">La portatil es nuestra parrilla mas sencilla, lo que no significa que su calidad sea inferior. Sus materiales de construccion robustos la hacen la mejor opcion para los expertos en asado</p>
+                    </div>
+                  </div>
+
+                </div>
             </section>
-            <section id="nosotros_index">
-                <ul>
-                    <li><img src="./imagenes/nosotros.jpg" alt="Sobre nosotros"></li>
-                    <li><p>Somos una empresa familiar que se dedica a la fabricacion de parrillas. Desde 1973 buscamos las mejores soluciones para los problemas del asador argentino, mezclando los mejores materiales con diseños funcionales y esteticos. <br><br>Tambien hacemos parrillas especiales, para clientes epeciales! Contactanos si queres mas informacion <br><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus nobis qui corporis itaque sed praesentium magni earum debitis. Mollitia, deleniti culpa sit rem molestiae itaque dolorum nam placeat, neque, porro ipsum aliquid recusandae totam necessitatibus qui ea facere. Nisi, ipsum fugiat repudiandae, eveniet nihil dolorum fugit similique error exercitationem porro neque! Repellendus quisquam placeat at architecto! Id facere nostrum in beatae! Debitis provident voluptatum quaerat in sint dolore ea autem quod, dolorem impedit est expedita inventore repellendus dignissimos aliquam eligendi ab odio eos cum fuga quam reiciendis ducimus a asperiores. Dolorem nemo voluptatum necessitatibus porro architecto odit cupiditate ad illum. <a href="./pages/contacto.html"><button>Contacto</button></a></p></li></li>
-                </ul>                
+
+            <!--Seccion de productos-->
+            <section class="container-fluid ProductosIndex">
+              <div class="row">
+
+                <div class="card col">
+                  <img src="./imagenes/nosotros.jpg" class="card-img-top ProductosIndex__Imagen mx-auto d-block" alt="Sobre nosotros">
+                  <div class="card-body ProductosIndex__Card">
+                    <h5 class="card-title">Sobre Nosotros</h5>
+                    <p class="card-text">Somos una empresa familiar que se dedica a la fabricacion de parrillas. Desde 1973 buscamos las mejores soluciones para los problemas del asador argentino, mezclando los mejores materiales con diseños funcionales y esteticos. <br><br>Tambien hacemos parrillas especiales, para clientes epeciales! Contactanos si queres mas informacion <br><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus nobis qui corporis itaque sed praesentium magni earum debitis. Mollitia, deleniti culpa sit rem molestiae itaque dolorum nam placeat, neque, porro ipsum aliquid recusandae totam necessitatibus qui ea facere. Nisi, ipsum fugiat repudiandae, eveniet nihil dolorum fugit similique error exercitationem porro neque! Repellendus quisquam placeat at architecto! Id facere nostrum in beatae! Debitis provident voluptatum quaerat in sint dolore ea autem quod, dolorem impedit est expedita inventore repellendus dignissimos aliquam eligendi ab odio eos cum fuga quam reiciendis ducimus a asperiores. Dolorem nemo voluptatum necessitatibus porro architecto odit cupiditate ad illum.</p>
+                    <a href="./pages/contacto.html" class="btn">Contacto</a>
+                  </div>
+                </div>
+
+              </div>    
             </section>
             <section id="video_index">
                 <ul>
@@ -73,6 +116,7 @@
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur magni, omnis, odio aspernatur sunt cupiditate consequatur architecto perspiciatis ex a tempore nobis culpa! Repellendus voluptate nobis beatae praesentium ex molestias vel maiores illum sapiente deserunt, eaque tempore laborum aperiam cupiditate? Cupiditate magnam eligendi deserunt aspernatur architecto, reprehenderit nulla qui tempore.</p></li>
                 </ul>
             </section> 
+
         </main>
 
         <footer>
@@ -82,13 +126,13 @@
                         <img class="logo_footer" src="./imagenes/logo-footer.png" alt="Logo de TodoParrillas">
                     </div>
                     <div class="col-6">
-                        <form class="mail_footer">
+                        <form class="MailFooter">
                             <p>Suscribite para recibir ofertas!</p>
                             <input type="email" name="email" id="id_email" placeholder="Ingresa tu mail">
                         </form>
                     </div>
                     <div class="col">
-                        <p class="pie_de_pagina">Realizado por Santiago Ribot para TodoParrillas. <br><span class="nueva_linea">Todos los derechos reservados</span></p>
+                        <p class="PieDePagina">Realizado por Santiago Ribot para TodoParrillas. <br><span class="nueva_linea">Todos los derechos reservados</span></p>
                     </div>
                 </div>
             </div>
