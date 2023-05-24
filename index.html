@@ -99,8 +99,13 @@
             <section class="container-fluid ProductosIndex">
               <div class="row">
 
-                <div class="card col">
-                  <img src="./imagenes/nosotros.jpg" class="card-img-top ProductosIndex__Imagen mx-auto d-block" alt="Sobre nosotros">
+                <div class="card col-lg-12 col-xl-6">
+                  <div class="card-body ProductosIndex__Card">
+                    <img src="./imagenes/nosotros.jpg" class="card-img-top ProductosIndex__Imagen mx-auto d-block" alt="Sobre nosotros">
+                  </div>
+                </div>
+
+                <div class="card col-lg-12 col-xl-6">
                   <div class="card-body ProductosIndex__Card">
                     <h5 class="card-title">Sobre Nosotros</h5>
                     <p class="card-text">Somos una empresa familiar que se dedica a la fabricacion de parrillas. Desde 1973 buscamos las mejores soluciones para los problemas del asador argentino, mezclando los mejores materiales con diseños funcionales y esteticos. <br><br>Tambien hacemos parrillas especiales, para clientes epeciales! Contactanos si queres mas informacion <br><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus nobis qui corporis itaque sed praesentium magni earum debitis. Mollitia, deleniti culpa sit rem molestiae itaque dolorum nam placeat, neque, porro ipsum aliquid recusandae totam necessitatibus qui ea facere. Nisi, ipsum fugiat repudiandae, eveniet nihil dolorum fugit similique error exercitationem porro neque! Repellendus quisquam placeat at architecto! Id facere nostrum in beatae! Debitis provident voluptatum quaerat in sint dolore ea autem quod, dolorem impedit est expedita inventore repellendus dignissimos aliquam eligendi ab odio eos cum fuga quam reiciendis ducimus a asperiores. Dolorem nemo voluptatum necessitatibus porro architecto odit cupiditate ad illum.</p>
@@ -110,11 +115,22 @@
 
               </div>    
             </section>
-            <section id="video_index">
-                <ul>
-                    <li><iframe  width="615" height="390" src="https://www.youtube.com/embed/OSoJXJPhnaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
-                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur magni, omnis, odio aspernatur sunt cupiditate consequatur architecto perspiciatis ex a tempore nobis culpa! Repellendus voluptate nobis beatae praesentium ex molestias vel maiores illum sapiente deserunt, eaque tempore laborum aperiam cupiditate? Cupiditate magnam eligendi deserunt aspernatur architecto, reprehenderit nulla qui tempore.</p></li>
-                </ul>
+
+            <!--Seccion de videos-->
+            <section class="container-fluid VideoIndex">
+              <div class="row">
+
+                <div class="card col-lg-6">
+                  <iframe  width="615" height="390" src="https://www.youtube.com/embed/OSoJXJPhnaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="card col-lg-6">
+                  <div class="card-body">
+                    <h5 class="card-title">Mira nuestras recetas!</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur magni, omnis, odio aspernatur sunt cupiditate consequatur architecto perspiciatis ex a tempore nobis culpa! Repellendus voluptate nobis beatae praesentium ex molestias vel maiores illum sapiente deserunt, eaque tempore laborum aperiam cupiditate? Cupiditate magnam eligendi deserunt aspernatur architecto, reprehenderit nulla qui tempore.</p>
+                  </div>
+                </div>
+
+              </div>
             </section> 
 
         </main>
@@ -122,16 +138,16 @@
         <footer>
             <div class="container-fluid text-center">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md ">
                         <img class="logo_footer" src="./imagenes/logo-footer.png" alt="Logo de TodoParrillas">
                     </div>
-                    <div class="col-6">
+                    <div class="col-md">
                         <form class="MailFooter">
                             <p>Suscribite para recibir ofertas!</p>
                             <input type="email" name="email" id="id_email" placeholder="Ingresa tu mail">
                         </form>
                     </div>
-                    <div class="col">
+                    <div class="col-md">
                         <p class="PieDePagina">Realizado por Santiago Ribot para TodoParrillas. <br><span class="nueva_linea">Todos los derechos reservados</span></p>
                     </div>
                 </div>
