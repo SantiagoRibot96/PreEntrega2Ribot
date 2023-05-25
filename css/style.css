@@ -96,6 +96,17 @@ main{
 
 }
 
+.LogosSociales__ul{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+@media (max-width: 991px){
+    .LogosSociales__li img{
+        width: 3rem;
+        margin-left: .5rem;
+    }
+}
 @media (max-width: 1270px){
     iframe{
         width: 450px;
