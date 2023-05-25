@@ -3,12 +3,11 @@
     padding: 0;
 }
 
-.navbar{
-    background-color: rgb(243, 216, 166);
-    border-radius: .5rem;
-    box-shadow: 0 5px 3px rgb(248, 209, 141);
+main{
+    margin-top: 3rem;
 }
 
+/*NAVBAR*/
 .h1__TituloPrincipal{
     font-size: 2.5rem;
     font-weight: bolder;
@@ -19,22 +18,34 @@
     font-size: 1rem;
 }
 
-main{
-    margin-top: 3rem;
-}
-
 .LogosSociales__li img{
     width: 2rem;
     margin-left: .5rem;
+}
+
+.navbar{
+    background-color: rgb(243, 216, 166);
+    border-radius: .5rem;
+    box-shadow: 0 5px 3px rgb(248, 209, 141);
 }
 
 .MailFooter input{
     width: 20rem;
 }
 
+.LogosSociales__ul{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+/*FOOTER*/
+
 .PieDePagina{
     white-space: nowrap;
 }
+
+/*TO TOP*/
 
 .to_top{
     width: 3rem;
@@ -43,10 +54,13 @@ main{
     right: 2rem;
     opacity: .5;
 }
+
 .to_top:hover{
     opacity: 1;
 }
 
+
+/*INDEX*/
 .MainIndex{
     background-color: rgba(250, 240, 223, 0.384);
     padding-top: 6rem;
@@ -83,6 +97,23 @@ main{
     background-color: rgb(252, 234, 203);
 }
 
+.VideoIndex .card{
+    background-color: rgba(250, 240, 223, 0.384);
+    border: none;
+}
+
+.VideoIndex{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/*CONTACTO*/
+.MainContacto{
+    background-color: rgba(250, 240, 223, 0.384);
+    padding-top: 6rem;
+}
+
+/*MEDIA QUERIES*/
 @media (max-width: 768px) {
 
     .card .ProductosIndex__Imagen{
@@ -95,31 +126,19 @@ main{
     }
 
 }
-
-.LogosSociales__ul{
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-}
 @media (max-width: 991px){
+
     .LogosSociales__li img{
         width: 3rem;
         margin-left: .5rem;
     }
+
 }
 @media (max-width: 1270px){
+
     iframe{
         width: 450px;
         height: 225px;
     }
-}
 
-.VideoIndex .card{
-    background-color: rgba(250, 240, 223, 0.384);
-    border: none;
-}
-
-.VideoIndex{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
 }
