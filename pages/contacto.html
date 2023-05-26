@@ -54,7 +54,55 @@
         </header>
 
         <main class="MainContacto">
-            
+          <div class="row">
+
+            <div class="col-md-6">
+              <!--Seccion Formulario-->
+              <section class="container_fluid px-4">
+                <form class="contacto__form">
+                  <fieldset>
+
+                    <legend>Formulario de contacto</legend>
+                    <div class="row mb-3">
+                      <div class="col gx-0">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" id="id_nombre">
+                      </div>
+                      <div class="col gx-0 MargenIzquierdo">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" id="id_apellido">
+                      </div>
+                    </div>
+        
+                    <div class="row mb-3">
+                      <input type="email" class="form-control" id="id_email" placeholder="Email">
+                    </div>
+        
+                    <div class="row mb-3">
+                      <input type="number" class="form-control" id="id_telefono" placeholder="Telefono">
+                    </div>
+        
+                    <div class="row">
+                      <label for="id_comentarios" class="form-label">Comentarios</label>
+                      <textarea class="form-control" id="id_comentarios" rows="3"></textarea>
+                    </div>
+
+                  </fieldset>
+                </form>
+              </section>
+            </div>
+
+            <div class="col-md-6">
+              <!--Seccion Datos-->
+              <section class="contacto__datos">
+                <ul class="list-group list-group-flush px-4 fs-4">
+                  <li class="list-group-item">Telefono: 11-222-222</li>
+                  <li class="list-group-item">Mail: info@todoparrillas.com.ar</li>
+                  <li class="list-group-item">Instagram: Todo_Parrillas</li>
+                  <li class="list-group-item">Facebook: TodoParrillas</li>
+                </ul>
+              </section>
+            </div>
+
+          </div>
         </main>
 
         <footer>
